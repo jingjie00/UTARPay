@@ -765,7 +765,7 @@ String getChangelogString() {
     < 3.9.6
     New scheduled and loans pages with search
     Added currency name in transaction entry when multiple currencies used
-    Cleaned up Cashew Pro screen
+    Cleaned up UTARPay Pro screen
     < 3.9.5
     Premium popup dismissed after purchase
     Continue for free developer message
@@ -877,7 +877,7 @@ String getChangelogString() {
     Reduced popup snapping, increased snapping to max on certain popups
     Action bar has create transaction copy button
     < 3.8.0
-    Cashew pro background now extends past scrollable area - support for (i) over-scroll
+    UTARPay pro background now extends past scrollable area - support for (i) over-scroll
     Proper currency for editing wallets row entry
     Fixed (i) tappable long press but incomplete would freeze animation
     Swipe along checks to select transaction
@@ -923,7 +923,7 @@ String getChangelogString() {
     Premium banner uses open container animation
     Moved translation help to about page 
     < 3.7.5
-    Cashew Pro banner in settings
+    UTARPay Pro banner in settings
     Removed old implementation of associated titles lookup
     Added vibration when scrubbing through line graphs
     New budget history container for (i)
@@ -973,7 +973,7 @@ String getChangelogString() {
     Fixed range slider in filters
     Silent sign-in when platform error when not on web
     < 3.7.1
-    Cashew Pro popup
+    UTARPay Pro popup
     Custom context menu refactored
     Removed counting of number in add transaction page
     < 3.7.0
@@ -1586,7 +1586,7 @@ String getChangelogString() {
     Updated FL Charts package
     Added vibration when reordering categories
     Fixed auto backups timing
-    App rename to Cashew
+    App rename to UTARPay
     Icon search
     Most likely category name when selecting icon
     Added more icons

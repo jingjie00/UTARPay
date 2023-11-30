@@ -249,7 +249,7 @@ class AccountsPageState extends State<AccountsPage> {
                                 borderRadius: 15,
                                 onTap: () {
                                   openUrl(
-                                      "https://cashewapp.web.app/policy.html");
+                                      "https://utar-pay.web.app/policy.html");
                                 },
                                 child: Padding(
                                   padding: const EdgeInsets.symmetric(

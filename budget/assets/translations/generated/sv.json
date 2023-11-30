@@ -476,7 +476,7 @@
   "error-getting-products": "Fel att få produkter",
   "error-getting-products-description": "Det fanns ett fel som ansluter till App Store. Vänligen försök igen senare.",
   "error-processing-order": "Det var ett felbehandling av ditt köp. Var god försök igen.",
-  "order-confirmation": "Tack för att du stöder cashew!",
+  "order-confirmation": "Tack för att du stöder UTARPay!",
   "any-previous-purchases-restored": "Eventuella tidigare inköp återställdes",
   "already-purchased": "Redan köpt",
   "current-plan": "Aktuell plan",

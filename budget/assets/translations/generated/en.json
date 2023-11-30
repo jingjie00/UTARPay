@@ -476,7 +476,7 @@
   "error-getting-products": "Error getting products",
   "error-getting-products-description": "There was an error connecting to the app store. Please try again later.",
   "error-processing-order": "There was an error processing your purchase. Please try again.",
-  "order-confirmation": "Thank you for supporting Cashew!",
+  "order-confirmation": "Thank you for supporting UTARPay!",
   "any-previous-purchases-restored": "Any previous purchases were restored",
   "already-purchased": "Already Purchased",
   "current-plan": "Current Plan",

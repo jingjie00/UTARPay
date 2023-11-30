@@ -1,4 +1,4 @@
-String globalAppName = "Cashew";
+String globalAppName = "utarpay";
 
 Set<String> supportedLanguagesSet = {
   "en",

@@ -131,7 +131,7 @@ class App extends StatelessWidget {
       actions: keyboardIntents,
       themeAnimationDuration: Duration(milliseconds: 300),
       key: ValueKey(1),
-      title: 'Cashew',
+      title: 'UTARPay',
       navigatorKey: navigatorKey,
       theme: ThemeData(
         pageTransitionsTheme: PageTransitionsTheme(builders: {

@@ -1493,7 +1493,7 @@ Future<bool> saveDriveFileToDevice({
   await for (var data in response.stream) {
     dataStore.insertAll(dataStore.length, data);
   }
-  String fileName = "cashew-" +
+  String fileName = "utarpay-" +
       ((fileToSave.name ?? "") +
               (fileToSave.modifiedTime ?? DateTime.now()).toString())
           .replaceAll(".sqlite", "")

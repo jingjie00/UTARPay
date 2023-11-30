@@ -47,30 +47,29 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBGiaRl72d4k3Ki0dh8ra-gU4v2z04CgIw',
-    appId: '1:267621253497:web:12558fe9abebf7fa842fa8',
-    messagingSenderId: '267621253497',
-    projectId: 'budget-app-flutter',
-    authDomain: 'budget-app-flutter.firebaseapp.com',
-    storageBucket: 'budget-app-flutter.appspot.com',
+    apiKey: 'AIzaSyCnfDZ5N9xNl8yLvWMC1Dy97MflxWp_aZI',
+    appId: '1:542160672332:web:bb7510325c89f3c83106e9',
+    messagingSenderId: '542160672332',
+    projectId: 'utar-pay',
+    authDomain: 'utar-pay.firebaseapp.com',
+    storageBucket: 'utar-pay.appspot.com',
+    measurementId: 'G-68K1C8J69E',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDNVDtwGJUHBZohwB2RDeUco-5hAGfx2bA',
-    appId: '1:267621253497:android:e7a2967eaf8dd072842fa8',
-    messagingSenderId: '267621253497',
-    projectId: 'budget-app-flutter',
-    storageBucket: 'budget-app-flutter.appspot.com',
+    apiKey: 'AIzaSyAWk_HbxtyYGxNMEboEQwsGWgj56ZAUMsE',
+    appId: '1:542160672332:android:3803422c332ac4663106e9',
+    messagingSenderId: '542160672332',
+    projectId: 'utar-pay',
+    storageBucket: 'utar-pay.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBts7THLrbIh-xReN70k5AsknAMwBNhrD0',
-    appId: '1:267621253497:ios:17af91fbac7c01b9842fa8',
-    messagingSenderId: '267621253497',
-    projectId: 'budget-app-flutter',
-    storageBucket: 'budget-app-flutter.appspot.com',
-    androidClientId: '267621253497-0h976snjlf34gs8m75bh8nik8gcvr2mk.apps.googleusercontent.com',
-    iosClientId: '267621253497-ih94g1srq37gun4mdmvadgl3ev588vpf.apps.googleusercontent.com',
-    iosBundleId: 'com.budget.tracker-app',
+    apiKey: 'AIzaSyD48_vtt1fCNEEkXqWnsGolP0jGUw78ECM',
+    appId: '1:542160672332:ios:7292ff43d169f1b33106e9',
+    messagingSenderId: '542160672332',
+    projectId: 'utar-pay',
+    storageBucket: 'utar-pay.appspot.com',
+    iosBundleId: 'com.jingjietan.utarpay',
   );
 }

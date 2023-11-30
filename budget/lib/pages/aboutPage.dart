@@ -117,7 +117,7 @@ class AboutPage extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 5),
           child: Tappable(
             onTap: () {
-              openUrl("https://github.com/jameskokoska/Cashew");
+              openUrl("https://github.com/jameskokoska/UTARPay");
             },
             color: appStateSettings["materialYou"]
                 ? dynamicPastel(
@@ -319,7 +319,7 @@ class AboutPage extends StatelessWidget {
                   textColor: Theme.of(context).colorScheme.onTertiary,
                   expandedLayout: true,
                   onTap: () {
-                    openUrl("http://cashewapp.web.app/policy.html");
+                    openUrl("http://utar-pay.web.app/policy.html");
                   },
                 ),
               ),

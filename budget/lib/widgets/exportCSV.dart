@@ -223,7 +223,7 @@ class ExportCSV extends StatelessWidget {
       csvData.addAll(output.map((map) => map.values.toList()));
       String csv = ListToCsvConverter().convert(csvData);
 
-      String fileName = "cashew-" +
+      String fileName = "utarpay-" +
           DateTime.now()
               .toString()
               .replaceAll(".", "-")

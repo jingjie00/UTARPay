@@ -1,4 +1,4 @@
-package com.budget.tracker_app
+package com.jingjietan.utarpay
 
 import io.flutter.embedding.android.FlutterFragmentActivity
 

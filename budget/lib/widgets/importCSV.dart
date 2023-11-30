@@ -771,7 +771,7 @@ Future saveSampleCSV({required BuildContext boxContext}) async {
     ]);
     String csv = ListToCsvConverter().convert(csvData);
     return saveCSV(
-        boxContext: boxContext, csv: csv, fileName: "Cashew-csv-template.csv");
+        boxContext: boxContext, csv: csv, fileName: "utarpay-csv-template.csv");
   });
   return;
 }

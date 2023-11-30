@@ -1,6 +1,6 @@
 {
-    "name": "Cashew",
-    "short_name": "Cashew",
+    "name": "UTARPay",
+    "short_name": "UTARPay",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#ffffff",

@@ -476,7 +476,7 @@
   "error-getting-products": "Fejl ved at få produkter",
   "error-getting-products-description": "Der var en fejl, der opretter forbindelse til App Store. Prøv igen senere.",
   "error-processing-order": "Der var en fejlbehandling af dit køb. Prøv igen.",
-  "order-confirmation": "Tak fordi du støtter cashew!",
+  "order-confirmation": "Tak fordi du støtter UTARPay!",
   "any-previous-purchases-restored": "Eventuelle tidligere køb blev gendannet",
   "already-purchased": "Allerede købt",
   "current-plan": "Nuværende plan",
