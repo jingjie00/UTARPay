@@ -3,7 +3,7 @@
 
 <a href="https://utar-pay.web.app/">
   <div align="center">
-    <img alt="Icon" src="promotional/icons/icon.png" width="150px">
+    <img alt="Icon" src="https://github.com/jingjie00/UTARPay/blob/main/budget/assets/icon/icon.png" width="150px">
   </div>
 </a>
 
@@ -11,7 +11,7 @@
 
 <a href="https://utar-pay.web.app/">
   <div align="center">
-    <img width="95%" src="promotional/GitHub/SocialPreviewGitHub.png" alt="Promo banner">
+    <img width="95%" src="https://github.com/jingjie00/UTARPay/blob/main/budget/assets/icon/icon.png" alt="Promo banner">
   </div>
 </a>
 
