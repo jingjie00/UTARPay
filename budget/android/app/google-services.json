@@ -12,7 +12,12 @@
           "package_name": "com.jingjietan.utarpay"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "542160672332-vmo497ma7e6npfmnc2r5llsemq10lihq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyAWk_HbxtyYGxNMEboEQwsGWgj56ZAUMsE"
@@ -20,7 +25,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542160672332-vmo497ma7e6npfmnc2r5llsemq10lihq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "542160672332-9ou2ofbfato6ffjdoi0bp6hpq8snqqi0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jingjietan.utarpay"
+              }
+            }
+          ]
         }
       }
     }

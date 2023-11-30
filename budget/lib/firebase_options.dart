@@ -51,7 +51,7 @@ class DefaultFirebaseOptions {
     appId: '1:542160672332:web:bb7510325c89f3c83106e9',
     messagingSenderId: '542160672332',
     projectId: 'utar-pay',
-    authDomain: 'utar-pay.firebaseapp.com',
+    authDomain: 'utar-pay.web.app',
     storageBucket: 'utar-pay.appspot.com',
     measurementId: 'G-68K1C8J69E',
   );
