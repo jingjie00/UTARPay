@@ -59,7 +59,7 @@ Future saveDBFileToDevice({
 
 Future exportDB({required BuildContext boxContext}) async {
   await openLoadingPopupTryCatch(() async {
-    String fileName = "cashew-" +
+    String fileName = "utarpay-" +
         DateTime.now()
             .toString()
             .replaceAll(".", "-")
