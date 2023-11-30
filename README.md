@@ -6,13 +6,3 @@
     <img alt="Icon" src="https://github.com/jingjie00/UTARPay/blob/main/budget/assets/icon/icon.png" width="150px">
   </div>
 </a>
-
-<br />
-
-<a href="https://utar-pay.web.app/">
-  <div align="center">
-    <img width="95%" src="https://github.com/jingjie00/UTARPay/blob/main/budget/assets/icon/icon.png" alt="Promo banner">
-  </div>
-</a>
-
-<br />
