@@ -88,7 +88,7 @@ Future generatePreviewData() async {
       dateCreated: DateTime.now(),
       dateTimeModified: null,
       order: 0,
-      currency: "usd",
+      currency: "myr",
       decimals: 2,
       homePageWidgetDisplay: defaultWalletHomePageWidgetDisplay,
     ),
