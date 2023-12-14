@@ -1,4 +1,4 @@
-String globalAppName = "utarpay";
+String globalAppName = "UTARPay";
 
 Set<String> supportedLanguagesSet = {
   "en",
