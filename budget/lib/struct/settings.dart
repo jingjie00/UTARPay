@@ -327,10 +327,10 @@ class TranslationsHelp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Tappable(
       onTap: () {
-        openUrl('mailto:dapperappdeveloper@gmail.com');
+        openUrl('mailto:me@jingjietan.com');
       },
       onLongPress: () {
-        copyToClipboard("dapperappdeveloper@gmail.com");
+        copyToClipboard("me@jingjietan.com");
       },
       color: backgroundColor ??
           Theme.of(context).colorScheme.secondaryContainer.withOpacity(0.7),
@@ -366,7 +366,7 @@ class TranslationsHelp extends StatelessWidget {
                     ),
                   ),
                   TextSpan(
-                    text: 'dapperappdeveloper@gmail.com',
+                    text: 'me@jingjietan.com',
                     style: TextStyle(
                       decoration: TextDecoration.underline,
                       decorationStyle: TextDecorationStyle.solid,

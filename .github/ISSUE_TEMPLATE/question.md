@@ -12,4 +12,4 @@ assignees: ''
 
 NOTE TO THE SUBMITTER
 Double check that your question is not already addressed by searching past issues. 
-Feel free to email me at dapperappdeveloper@gmail.com and I'll be happy to help you!
+Feel free to email me at me@jingjietan.com and I'll be happy to help you!

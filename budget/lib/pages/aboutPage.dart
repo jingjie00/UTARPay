@@ -117,7 +117,7 @@ class AboutPage extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 5),
           child: Tappable(
             onTap: () {
-              openUrl("https://github.com/jameskokoska/UTARPay");
+              openUrl("https://github.com/jingjie00/UTARPay");
             },
             color: appStateSettings["materialYou"]
                 ? dynamicPastel(
@@ -206,10 +206,10 @@ class AboutPage extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 5),
           child: Tappable(
             onTap: () {
-              openUrl('mailto:dapperappdeveloper@gmail.com');
+              openUrl('mailto:me@jingjietan.com');
             },
             onLongPress: () {
-              copyToClipboard("dapperappdeveloper@gmail.com");
+              copyToClipboard("me@jingjietan.com");
             },
             color: appStateSettings["materialYou"]
                 ? dynamicPastel(
@@ -229,7 +229,7 @@ class AboutPage extends StatelessWidget {
                     maxLines: 5,
                   ),
                   TextFont(
-                    text: "James",
+                    text: "Project forked from Cashew-app",
                     fontSize: 29,
                     fontWeight: FontWeight.bold,
                     textColor: Theme.of(context).colorScheme.onPrimaryContainer,
@@ -237,45 +237,11 @@ class AboutPage extends StatelessWidget {
                     maxLines: 5,
                   ),
                   TextFont(
-                    text: "dapperappdeveloper@gmail.com",
+                    text: "Forked and modified by Jing Jie Tan",
                     fontSize: 16,
                     textAlign: TextAlign.center,
                     maxLines: 5,
                     textColor: getColor(context, "textLight"),
-                  ),
-                ],
-              ),
-            ),
-          ),
-        ),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 5),
-          child: Tappable(
-            onTap: () {},
-            color: appStateSettings["materialYou"]
-                ? dynamicPastel(
-                    context, Theme.of(context).colorScheme.secondaryContainer,
-                    amountLight: 0.2, amountDark: 0.6)
-                : getColor(context, "lightDarkAccent"),
-            borderRadius: 15,
-            child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 13, vertical: 15),
-              child: Column(
-                children: [
-                  TextFont(
-                    text: "database-designer".tr(),
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold,
-                    textAlign: TextAlign.center,
-                    maxLines: 5,
-                  ),
-                  TextFont(
-                    text: "YuYing",
-                    fontSize: 29,
-                    fontWeight: FontWeight.bold,
-                    textColor: Theme.of(context).colorScheme.onPrimaryContainer,
-                    textAlign: TextAlign.center,
-                    maxLines: 5,
                   ),
                 ],
               ),
@@ -423,144 +389,12 @@ class AboutPage extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 7),
           child: Center(
             child: TextFont(
-              text: "made-in-canada".tr() + " " + "🍁",
+              text: "A digital transformation project by UTAR, forked and modified by Tan Jing Jie",
               fontSize: 14,
               textAlign: TextAlign.center,
               maxLines: 5,
             ),
           ),
-        ),
-        SizedBox(height: 20),
-        HorizontalBreak(),
-        SizedBox(height: 10),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 7),
-          child: Center(
-            child: TextFont(
-              text: "graphics".tr(),
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
-              textAlign: TextAlign.center,
-              maxLines: 5,
-            ),
-          ),
-        ),
-        AboutInfoBox(
-          title: "freepik-credit".tr(),
-          link: "https://www.flaticon.com/authors/freepik",
-        ),
-        AboutInfoBox(
-          title: "font-awesome-credit".tr(),
-          link: "https://fontawesome.com/",
-        ),
-        AboutInfoBox(
-          title: "pch-vector-credit".tr(),
-          link: "https://www.freepik.com/author/pch-vector",
-        ),
-        Container(height: 15),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 7),
-          child: Center(
-            child: TextFont(
-              text: "major-tools".tr(),
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
-              textAlign: TextAlign.center,
-              maxLines: 5,
-            ),
-          ),
-        ),
-        AboutInfoBox(
-          title: "Flutter",
-          link: "https://flutter.dev/",
-        ),
-        AboutInfoBox(
-          title: "Google Cloud APIs",
-          link: "https://cloud.google.com/",
-        ),
-        AboutInfoBox(
-          title: "Drift SQL Database",
-          link: "https://drift.simonbinder.eu/",
-        ),
-        AboutInfoBox(
-          title: "FL Charts",
-          link: "https://github.com/imaNNeoFighT/fl_chart",
-        ),
-        AboutInfoBox(
-          title: "exchange-rates-api".tr(),
-          link: "https://github.com/fawazahmed0/currency-api",
-        ),
-        Container(height: 15),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 7),
-          child: Center(
-            child: TextFont(
-              text: "translations".tr().capitalizeFirst,
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
-              textAlign: TextAlign.center,
-              maxLines: 5,
-            ),
-          ),
-        ),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 5),
-          child: TranslationsHelp(
-            showIcon: false,
-            backgroundColor: (appStateSettings["materialYou"]
-                ? dynamicPastel(
-                    context, Theme.of(context).colorScheme.secondaryContainer,
-                    amountLight: 0.2, amountDark: 0.6)
-                : getColor(context, "lightDarkAccent")),
-          ),
-        ),
-        AboutInfoBox(
-          title: "Italian",
-          list: ["Thomas B."],
-        ),
-        AboutInfoBox(
-          title: "Polish",
-          list: ["Michał S."],
-        ),
-        AboutInfoBox(
-          title: "Serbian",
-          list: ["Jovan P."],
-        ),
-        AboutInfoBox(
-          title: "Swahili",
-          list: ["Anthony K."],
-        ),
-        AboutInfoBox(
-          title: "German",
-          list: ["Fabian S."],
-        ),
-        AboutInfoBox(
-          title: "Arabic",
-          list: ["Dorra Y."],
-        ),
-        AboutInfoBox(
-          title: "Arabic",
-          list: ["Dorra Y."],
-        ),
-        AboutInfoBox(
-          title: "Portuguese",
-          list: ["Alexander G.", "Jean J.", "João P"],
-        ),
-        AboutInfoBox(
-          title: "Bulgarian",
-          list: ["Денислав С."],
-        ),
-        AboutInfoBox(
-          title: "Chinese (Simplified)",
-          list: ["Clyde"],
-        ),
-        AboutInfoBox(
-          title: "Hindi",
-          list: ["Dikshant S."],
-        ),
-        AboutInfoBox(
-          title: "Vietnamese",
-          list: ["Ngọc A."],
         ),
         SizedBox(height: 20),
       ],

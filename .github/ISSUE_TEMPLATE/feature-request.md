@@ -21,4 +21,4 @@ assignees: ''
 
 NOTE TO THE SUBMITTER
 Not all feature requests will be considered. This budget app was created with careful thought given to each feature's usability and prevention of feature overload. As you use the app, you will discover possibly related useful features and that may not be obvious right away. 
-Feel free to email me at dapperappdeveloper@gmail.com and I'll be happy to help you!
+Feel free to email me at me@jingjietan.com and I'll be happy to help you!
