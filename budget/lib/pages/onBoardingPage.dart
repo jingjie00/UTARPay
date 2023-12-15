@@ -25,6 +25,7 @@ import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import '../functions.dart';
 import 'package:budget/database/initializeDefaultDatabase.dart';
+import 'package:budget/widgets/showChangelog.dart';
 
 class OnBoardingPage extends StatelessWidget {
   const OnBoardingPage({
@@ -82,12 +83,16 @@ class OnBoardingPageBodyState extends State<OnBoardingPageBody> {
   final Image imageLanding3 = Image(
     image: AssetImage("assets/landing/PigBank.png"),
   );
+  final Image imageLanding4 = Image(
+    image: AssetImage("assets/icon/icon-fit.png"),
+  );
 
   @override
   void didChangeDependencies() {
     precacheImage(imageLanding1.image, context);
     precacheImage(imageLanding2.image, context);
     precacheImage(imageLanding3.image, context);
+    precacheImage(imageLanding4.image, context);
     super.didChangeDependencies();
   }
 
@@ -248,6 +253,12 @@ class OnBoardingPageBodyState extends State<OnBoardingPageBody> {
               maxLines: 5,
             ),
           ),
+          Container(
+            constraints: BoxConstraints(
+                maxWidth: 100,
+                maxHeight: 100),
+            child: imageLanding4,
+          ),
           SizedBox(height: 15),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 25),
@@ -259,6 +270,44 @@ class OnBoardingPageBodyState extends State<OnBoardingPageBody> {
             ),
           ),
           SizedBox(height: 55),
+          // made the width small as possible, so it doesn't take up the whole screen
+
+          IntrinsicWidth(
+            child: Column(
+              children: [
+                SizedBox(height: 40),
+                // grey horizontal line
+                Container(
+                  height: 1,
+                  width: MediaQuery.of(context).size.width * 0.4,
+                  color: Theme.of(context).colorScheme.secondary.withOpacity(0.2),
+                ),
+                SizedBox(height: 40),
+                TextFont(
+                  text: "By continuing, you agree to the",
+                  textAlign: TextAlign.center,
+                  fontSize: 16,
+                  maxLines: 5,
+                ),
+                SizedBox(height: 10), // Adjust the spacing if needed
+                Button(
+                  label: "Terms of Service and Privacy Policy",
+                  onTap: () {
+                    showLicensePage(
+                      context: context,
+                      applicationVersion: getVersionString(),
+                      applicationLegalese:
+                          "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE." +
+                          "\n\n" +
+                          "exchange-rate-notice-description".tr(),
+                    );
+                  },
+                  color: Theme.of(context).colorScheme.background,
+                )
+               
+              ],
+            ),
+          ),
         ],
         bottomWidget: widget.showPreviewDemoButton
             ? PreviewDemoButton(
@@ -545,14 +594,6 @@ class OnBoardingPageBodyState extends State<OnBoardingPageBody> {
                   },
                   text: "continue-without-sign-in".tr(),
                 ),
-          // IntrinsicWidth(
-          //   child: Button(
-          //     label: "Let's go!",
-          //     onTap: () {
-          //       nextNavigation();
-          //     },
-          //   ),
-          // ),
         ],
       ),
     ];
