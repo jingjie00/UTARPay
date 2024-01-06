@@ -3,6 +3,6 @@
 
 <a href="https://utar-pay.web.app/">
   <div align="center">
-    <img alt="Icon" src="https://github.com/jingjie00/UTARPay/blob/main/budget/assets/icon/icon.png" width="150px">
+    <img alt="Icon" src="https://github.com/jingjie00/UTARPay/blob/main/application/assets/icon/icon.png" width="150px">
   </div>
 </a>
