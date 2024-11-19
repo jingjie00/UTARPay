@@ -191,3 +191,6 @@ flutter:
         - asset: assets/fonts/RobotoCondensed-Regular.ttf
         - asset: assets/fonts/RobotoCondensed-Bold.ttf
           weight: 700
+    - family: Icons
+      fonts:
+        - asset: assets/icons/Icons.ttf
